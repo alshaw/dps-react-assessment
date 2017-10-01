@@ -1,0 +1,17 @@
+{
+  "name": "create-repack-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd client && npm install --only=dev && npm install && npm run build && cd ..",
+    "deploy": "cp -a client/build/. public/",
+    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client Built'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-infinite-scroll": "^0.1.5",
+    "react-infinite-scroller": "^1.0.15",
+    "react-paginate": "^4.4.4"
+  }
+}
