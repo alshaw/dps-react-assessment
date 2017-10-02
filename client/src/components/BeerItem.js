@@ -6,7 +6,7 @@ import { Item, Button, Label } from 'semantic-ui-react'
 const BeerItem = ({beer}) => (
   <Item style={{marginTop: "10px", height: "180px", overflowY: "scroll"}}>
     {beer.labels ? <Item.Image size="small" src={beer.labels.medium} /> :
-    <Item.Image size="small" src="" />
+      <Item.Image size="small" src="" />  
     }
     <Item.Content>
       <Item.Header>{beer.name_display}</Item.Header>

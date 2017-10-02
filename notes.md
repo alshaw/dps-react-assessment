@@ -11,6 +11,7 @@ September 30 - Pretty much dead all morning
 
 October 1 -    Started 10:10AM to 1:15PM
                Break
-               3:00PM to 
+               3:00PM to 6:15PM
+               6:40PM to 10:00PM
 
 

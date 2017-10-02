@@ -9,7 +9,7 @@ const Brewery = ({brewery}) => (
     <Modal.Content image>
       {brewery.images ? 
         <Image size='large' src={brewery.images.square_large} />  :
-        <Image size='large'src="" />
+         <Image size='large'src="" /> 
       }
       <div>
         {brewery.description &&
